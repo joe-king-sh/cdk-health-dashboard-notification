@@ -1,19 +1,30 @@
-# Welcome to your CDK TypeScript project
+# CDK AWS Health Dashboard notification
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CdkHealthDashboardNotificationStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+## Install
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+```bash
+$ npm i
+```
 
-## Useful commands
+## Build
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
-
-
-$ npx cdk init app --language typescript
+```bash
 $ npx cdk synth
+```
+
+## Deploy
+
+```bash
+$ npx cdk deploy
+```
+
+## Link
+This repository stores sample codes for the below article.
+
+<iframe 
+  class="hatenablogcard" 
+  style="width:100%;height:155px;max-width:680px;" 
+  title="新しくなった「AWS Health Dashboard」からのSlack通知をCDKで作成する" 
+  src="https://dev.classmethod.jp/articles/aws-health-dashboard-slack-notification-with-cdk/" 
+  width="300" height="150" frameborder="0" scrolling="no">
+</iframe>
